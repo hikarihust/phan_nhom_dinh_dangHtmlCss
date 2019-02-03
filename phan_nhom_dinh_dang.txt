@@ -13,6 +13,14 @@
 
 4.Sử dụng giá trị relative, absolute của thuộc tinh position và giá trị của z-index.
 
-5. Ứng dụng tạo ra 1 LightBox
+5.Ứng dụng tạo ra 1 LightBox
 - Sử dụng 1 số kỹ thuật để căn giữa khối.
 - Đối với thuộc tính opacity thì nó có ảnh hưởng đến cả các thành phần nằm trong của nó.
+
+6.Tạo Slide(tạo ra 1 Slide ảnh đơn giản)
+- Ứng dụng các thuộc tính của nhóm position để tạo ra 1 phần Slide ảnh đơn giản
+- Cần phải tách phần trong suốt và phân tiêu đề ra thành 2 thẻ div khác nhau vì khi sử dụng phần opacity để tạo ra độ
+	trong suốt thì nó sẽ ảnh hưởng đến các thành phần nằm bên trong nó, do đó thì cần phải tách ra thành các thẻ div 
+	khác nhau.
+- alt của thẻ img sẽ được sử dụng khi mà phần hình ảnh không hiển thị được-> lúc đó phần alt sẽ hiển thị thay thế giúp
+	cho người dùng có những thông tin về phần hình ảnh
