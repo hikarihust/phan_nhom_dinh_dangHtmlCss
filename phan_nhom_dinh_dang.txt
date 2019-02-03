@@ -1,4 +1,5 @@
-Static là giá trị default của thuộc tính position.
+- Static là giá trị default của thuộc tính position.
+-fixed: So với trình duyệt
 
 1.Sử dụng giá trị relative, absolute của thuộc tính position
 - Khi sử dụng position thì cần phải thiết lập position cho đối tượng bao bọc ở bên ngoài.
@@ -11,3 +12,7 @@ Static là giá trị default của thuộc tính position.
 3.Sử dụng giá trị fixed của thuộc tính position để tạo menu dọc trình duyệt.
 
 4.Sử dụng giá trị relative, absolute của thuộc tinh position và giá trị của z-index.
+
+5. Ứng dụng tạo ra 1 LightBox
+- Sử dụng 1 số kỹ thuật để căn giữa khối.
+- Đối với thuộc tính opacity thì nó có ảnh hưởng đến cả các thành phần nằm trong của nó.
