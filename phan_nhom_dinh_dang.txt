@@ -24,3 +24,13 @@
 	khác nhau.
 - alt của thẻ img sẽ được sử dụng khi mà phần hình ảnh không hiển thị được-> lúc đó phần alt sẽ hiển thị thay thế giúp
 	cho người dùng có những thông tin về phần hình ảnh
+
+7.Thuộc tính overflow(giá trị mặc định của thuộc tính này là visible ->phần văn bản tràn ra khỏi box cũng sẽ được hiển thị)
+- Khi thiết lập width và height cho khối bao bên ngoài thì khi mà phần văn bản bên trong nó vượt quá chiều dài thì nó
+	bị tràn ra bên ngoài.
+	Để tránh trường hợp phần văn bản bên trong nó tràn ra bên ngoài thì mình cần sử dụng đến thuộc tính overflow
+		- Giá trị overflow là auto: Khi phần văn bản vượt quá chiều dài và chiều rộng của box thì sẽ tự động xuất hiện
+			1 thanh roll theo chiều dọc của box.
+		- scroll :Xuất hiện thanh roll theo chiều dọc và thanh roll theo chiều ngang của box.
+		- hidden: Phần văn bản chỉ được hiển thị phần nội dung nằm trong box, không xuất hiện thanh cuộn dọc và thanh 
+			cuộn ngang. Phần tràn ra khỏi box sẽ bị ẩn đi.
