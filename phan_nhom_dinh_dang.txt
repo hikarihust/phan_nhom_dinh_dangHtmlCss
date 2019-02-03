@@ -1,0 +1,4 @@
+1.Xử dụng giá trị relative, absolute của thuộc tính position
+- Khi sử dụng position thì cần phải thiết lập position cho đối tượng bao bọc ở bên ngoài.
+	Nếu không thiết lập position thì giá trị mặc định của đối tượng bên ngoài sẽ là static.
+- absolute: Vị trí so với phần tử cha của nó -> phần tử cha cần được thiết lập position không phải là static.
