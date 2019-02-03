@@ -5,3 +5,5 @@
 
 2.Sử dụng giá trị fix của thuộc tính position
 -fixed: Fix vị trí của đối tượng so với trình duyệt chứ không so với phần tử cha của phần tử đó giống như absoluted.
+
+3.Sử dụng giá trị fix của thuộc tính position để tạo menu dọc trình duyệt.
