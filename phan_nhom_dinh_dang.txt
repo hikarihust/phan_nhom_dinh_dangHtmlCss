@@ -51,6 +51,13 @@
 - Khối bên ngoài có đường viên màu đỏ(khối HTML)
 - Khối hình vuông bên trong(box)
 - Tìm hiểu sự tương tác giữa khối HTML và box bên trong khi khối HTML chịu tác động của các giá trị position khác nhau.
+
 TH1: Khối HTML có giá trị position = static
+box duoc dinh dang position la static:
 	- static cũng chính là giá trị mặc định. Nó không bị ảnh hưởng bởi các giá trị của top, bottom, left, và right.
 	- Khối box bên trong được định dạng là static -> các giá trị top, right, bottom và left của khối box không có bất kỳ tác dụng nào cả.
+box duoc dinh dang position la relative:
+	top: có bị ảnh hưởng, lệch so với vị trí ban đầu, lấy vị trí đường biên top làm gốc
+	right: lệch so với vị trí ban đầu, lấy vị trí đường biên right làm gốc
+	left: lệch so với vị trí ban đầu, lấy đường biên left làm gốc
+	bottom: lệch so với vị trí ban đầu, lấy đường biên bottom làm gốc
