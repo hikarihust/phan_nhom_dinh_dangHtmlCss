@@ -46,3 +46,11 @@
 	của tất cả các khối con bên trong.
 - Ở đây thì để tạo ra phần chuyển động cho slide thì mình đã định dạng position cho khối div.all-picture là relative và thiết lập
 	top và left cho khối đó.
+
+9.Sự phức tạp của các giá trị position
+- Khối bên ngoài có đường viên màu đỏ(khối HTML)
+- Khối hình vuông bên trong(box)
+- Tìm hiểu sự tương tác giữa khối HTML và box bên trong khi khối HTML chịu tác động của các giá trị position khác nhau.
+TH1: Khối HTML có giá trị position = static
+	- static cũng chính là giá trị mặc định. Nó không bị ảnh hưởng bởi các giá trị của top, bottom, left, và right.
+	- Khối box bên trong được định dạng là static -> các giá trị top, right, bottom và left của khối box không có bất kỳ tác dụng nào cả.
