@@ -34,3 +34,15 @@
 		- scroll :Xuất hiện thanh roll theo chiều dọc và thanh roll theo chiều ngang của box.
 		- hidden: Phần văn bản chỉ được hiển thị phần nội dung nằm trong box, không xuất hiện thanh cuộn dọc và thanh 
 			cuộn ngang. Phần tràn ra khỏi box sẽ bị ẩn đi.
+
+8.Xây dựng Slide ảnh
+- So sánh giá trị display: inline và display: inline-block -> Chủ yếu sự khác nhau giữa chúng là inline-block cho phép thiết
+	lập chiều rộng và chiều cao cho đối tượng. Đồng thời thì nó cũng cho phép thiết lập các giá trị vị trí như top và bottom,
+	thiết lập các giá trị margin/padding còn inline thì không.
+- So sánh display: block và display: inline-block -> inline-block thì nó không được thêm vào line-break sau phần tử, do đó phần
+	tử đằng sau sẽ được xếp ngay phía sau của phần tử trước nó -> có thể nằm trên cùng 1 hàng.
+-  Absolutely positioned elements ignores the float property!
+- Tổng chiều dài của khối thẻ div bao bọc bên ngoài tất cả các hình ảnh được tính bằng tổng của: border, padding, width và margin 
+	của tất cả các khối con bên trong.
+- Ở đây thì để tạo ra phần chuyển động cho slide thì mình đã định dạng position cho khối div.all-picture là relative và thiết lập
+	top và left cho khối đó.
