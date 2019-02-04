@@ -61,3 +61,6 @@ box duoc dinh dang position la relative:
 	right: lệch so với vị trí ban đầu, lấy vị trí đường biên right làm gốc
 	left: lệch so với vị trí ban đầu, lấy đường biên left làm gốc
 	bottom: lệch so với vị trí ban đầu, lấy đường biên bottom làm gốc
+
+box duoc dinh dang position la absolute:
+	Các giá trị top, right, left, bottom là so với trình duyệt, chứ không phải so với khối HTML bên ngoài. Trong trường hợp này thì kết quả thu được cũng giống như thiết lập position của box là fixed.
