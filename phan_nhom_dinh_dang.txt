@@ -73,3 +73,8 @@ TH2: Khối HTML có giá trị position = relative
 -khi box có giá trị position là absolute -> các giá trị top, right, bottom và left của box sẽ được tính so với khối HTML bên ngoài.
 
 TH3: Khối HTML có giá trị position = absolute -> kết quả thu được cũng giống như TH2
+
+TH4: Khối HTML có giá trị position = fixed
+-vị trí của box trong khối HTML cũng giống như TH2 và TH3.
+
+--->Khi cần thiết lập đến position thì thường box ngoài cùng thiết lập là relative rồi các khối con bên trong thiết lập cho nó absolute
