@@ -71,3 +71,5 @@ TH2: Khối HTML có giá trị position = relative
 -khi box có giá trị position là relative, thì các giá trị top, right, bottom và left là so với vị trí gốc của box.
 -khi box có giá trị position là fixed -> so với trình duyệt.
 -khi box có giá trị position là absolute -> các giá trị top, right, bottom và left của box sẽ được tính so với khối HTML bên ngoài.
+
+TH3: Khối HTML có giá trị position = absolute -> kết quả thu được cũng giống như TH2
